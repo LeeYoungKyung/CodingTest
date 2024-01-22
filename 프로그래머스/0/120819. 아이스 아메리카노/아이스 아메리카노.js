@@ -1,5 +1,6 @@
 function solution(money) {
     var answer = [];
-    answer = [Math.floor(money/5500),money-5500*Math.floor(money/5500)]
+    var coffee = Math.floor(money/5500)
+    answer = [coffee,money-5500*coffee]
     return answer;
 }
